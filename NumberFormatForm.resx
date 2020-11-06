@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelPositiveInfinity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelPositiveInfinity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 49</value>
+  </data>
+  <data name="labelPositiveInfinity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelPositiveInfinity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelPositiveInfinity.Text" xml:space="preserve">
+    <value>Positive Infinity Symbol:</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveInfinity.Name" xml:space="preserve">
+    <value>labelPositiveInfinity</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveInfinity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveInfinity.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveInfinity.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelGroupSizes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelGroupSizes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 75</value>
+  </data>
+  <data name="labelGroupSizes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelGroupSizes.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelGroupSizes.Text" xml:space="preserve">
+    <value>Group Sizes:</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSizes.Name" xml:space="preserve">
+    <value>labelGroupSizes</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSizes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSizes.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSizes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DecimalDigits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DecimalDigits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="DecimalDigits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="DecimalDigits.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DecimalDigits.Text" xml:space="preserve">
+    <value>(digit)</value>
+  </data>
+  <data name="DecimalDigits.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;DecimalDigits.Name" xml:space="preserve">
+    <value>DecimalDigits</value>
+  </data>
+  <data name="&gt;&gt;DecimalDigits.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DecimalDigits.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;DecimalDigits.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PositiveSign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PositiveSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 23</value>
+  </data>
+  <data name="PositiveSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="PositiveSign.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="PositiveSign.Text" xml:space="preserve">
+    <value>(possign)</value>
+  </data>
+  <data name="PositiveSign.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;PositiveSign.Name" xml:space="preserve">
+    <value>PositiveSign</value>
+  </data>
+  <data name="&gt;&gt;PositiveSign.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PositiveSign.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;PositiveSign.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DecimalSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DecimalSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 50</value>
+  </data>
+  <data name="DecimalSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="DecimalSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DecimalSeparator.Text" xml:space="preserve">
+    <value>(sep.)</value>
+  </data>
+  <data name="DecimalSeparator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;DecimalSeparator.Name" xml:space="preserve">
+    <value>DecimalSeparator</value>
+  </data>
+  <data name="&gt;&gt;DecimalSeparator.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DecimalSeparator.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;DecimalSeparator.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelNegativePattern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelNegativePattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 129</value>
+  </data>
+  <data name="labelNegativePattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelNegativePattern.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelNegativePattern.Text" xml:space="preserve">
+    <value>Negative Pattern:</value>
+  </data>
+  <data name="&gt;&gt;labelNegativePattern.Name" xml:space="preserve">
+    <value>labelNegativePattern</value>
+  </data>
+  <data name="&gt;&gt;labelNegativePattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNegativePattern.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;labelNegativePattern.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelPositiveSign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPositiveSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="labelPositiveSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelPositiveSign.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelPositiveSign.Text" xml:space="preserve">
+    <value>Positive Sign:</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveSign.Name" xml:space="preserve">
+    <value>labelPositiveSign</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveSign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveSign.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;labelPositiveSign.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelNAN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelNAN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 125</value>
+  </data>
+  <data name="labelNAN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelNAN.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelNAN.Text" xml:space="preserve">
+    <value>Not a Number Symbol:</value>
+  </data>
+  <data name="&gt;&gt;labelNAN.Name" xml:space="preserve">
+    <value>labelNAN</value>
+  </data>
+  <data name="&gt;&gt;labelNAN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNAN.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;labelNAN.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelGroupSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelGroupSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 101</value>
+  </data>
+  <data name="labelGroupSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelGroupSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelGroupSeparator.Text" xml:space="preserve">
+    <value>Group Separator:</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSeparator.Name" xml:space="preserve">
+    <value>labelGroupSeparator</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSeparator.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;labelGroupSeparator.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NAN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NAN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 125</value>
+  </data>
+  <data name="NAN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="NAN.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="NAN.Text" xml:space="preserve">
+    <value>(NAN)</value>
+  </data>
+  <data name="NAN.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;NAN.Name" xml:space="preserve">
+    <value>NAN</value>
+  </data>
+  <data name="&gt;&gt;NAN.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NAN.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;NAN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelDecimalDigits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDecimalDigits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="labelDecimalDigits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelDecimalDigits.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelDecimalDigits.Text" xml:space="preserve">
+    <value>Number of decimal digits:</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalDigits.Name" xml:space="preserve">
+    <value>labelDecimalDigits</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalDigits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalDigits.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalDigits.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="DigitSubstitution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DigitSubstitution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 151</value>
+  </data>
+  <data name="DigitSubstitution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="DigitSubstitution.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="DigitSubstitution.Text" xml:space="preserve">
+    <value>(digitsub.)</value>
+  </data>
+  <data name="DigitSubstitution.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;DigitSubstitution.Name" xml:space="preserve">
+    <value>DigitSubstitution</value>
+  </data>
+  <data name="&gt;&gt;DigitSubstitution.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DigitSubstitution.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;DigitSubstitution.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelDigitSubstitution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDigitSubstitution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 154</value>
+  </data>
+  <data name="labelDigitSubstitution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="labelDigitSubstitution.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelDigitSubstitution.Text" xml:space="preserve">
+    <value>Digit Substitution:</value>
+  </data>
+  <data name="&gt;&gt;labelDigitSubstitution.Name" xml:space="preserve">
+    <value>labelDigitSubstitution</value>
+  </data>
+  <data name="&gt;&gt;labelDigitSubstitution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDigitSubstitution.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;labelDigitSubstitution.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NegativePattern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NegativePattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 126</value>
+  </data>
+  <data name="NegativePattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="NegativePattern.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="NegativePattern.Text" xml:space="preserve">
+    <value>(negpat.)</value>
+  </data>
+  <data name="NegativePattern.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;NegativePattern.Name" xml:space="preserve">
+    <value>NegativePattern</value>
+  </data>
+  <data name="&gt;&gt;NegativePattern.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NegativePattern.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;NegativePattern.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GroupSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 101</value>
+  </data>
+  <data name="GroupSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="GroupSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="GroupSeparator.Text" xml:space="preserve">
+    <value>(gsep.)</value>
+  </data>
+  <data name="GroupSeparator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;GroupSeparator.Name" xml:space="preserve">
+    <value>GroupSeparator</value>
+  </data>
+  <data name="&gt;&gt;GroupSeparator.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GroupSeparator.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;GroupSeparator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GroupSizes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupSizes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 75</value>
+  </data>
+  <data name="GroupSizes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="GroupSizes.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GroupSizes.Text" xml:space="preserve">
+    <value>(gsizes)</value>
+  </data>
+  <data name="GroupSizes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;GroupSizes.Name" xml:space="preserve">
+    <value>GroupSizes</value>
+  </data>
+  <data name="&gt;&gt;GroupSizes.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GroupSizes.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;GroupSizes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelDecimalSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDecimalSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 50</value>
+  </data>
+  <data name="labelDecimalSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelDecimalSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelDecimalSeparator.Text" xml:space="preserve">
+    <value>Decimal separator:</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalSeparator.Name" xml:space="preserve">
+    <value>labelDecimalSeparator</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalSeparator.Parent" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;labelDecimalSeparator.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupDigits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 6</value>
+  </data>
+  <data name="groupDigits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 189</value>
+  </data>
+  <data name="groupDigits.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupDigits.Text" xml:space="preserve">
+    <value>Digits, groups &amp;&amp; separators</value>
+  </data>
+  <data name="&gt;&gt;groupDigits.Name" xml:space="preserve">
+    <value>groupDigits</value>
+  </data>
+  <data name="&gt;&gt;groupDigits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupDigits.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupDigits.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NegativeInfinity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NegativeInfinity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 99</value>
+  </data>
+  <data name="NegativeInfinity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="NegativeInfinity.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="NegativeInfinity.Text" xml:space="preserve">
+    <value>(neginf)</value>
+  </data>
+  <data name="NegativeInfinity.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;NegativeInfinity.Name" xml:space="preserve">
+    <value>NegativeInfinity</value>
+  </data>
+  <data name="&gt;&gt;NegativeInfinity.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NegativeInfinity.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;NegativeInfinity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NegativeSign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NegativeSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 74</value>
+  </data>
+  <data name="NegativeSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="NegativeSign.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="NegativeSign.Text" xml:space="preserve">
+    <value>(negsign)</value>
+  </data>
+  <data name="NegativeSign.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;NegativeSign.Name" xml:space="preserve">
+    <value>NegativeSign</value>
+  </data>
+  <data name="&gt;&gt;NegativeSign.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NegativeSign.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;NegativeSign.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PositiveInfinity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PositiveInfinity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 49</value>
+  </data>
+  <data name="PositiveInfinity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="PositiveInfinity.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PositiveInfinity.Text" xml:space="preserve">
+    <value>(posinf)</value>
+  </data>
+  <data name="PositiveInfinity.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;PositiveInfinity.Name" xml:space="preserve">
+    <value>PositiveInfinity</value>
+  </data>
+  <data name="&gt;&gt;PositiveInfinity.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PositiveInfinity.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;PositiveInfinity.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelNegativeSign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelNegativeSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="labelNegativeSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelNegativeSign.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelNegativeSign.Text" xml:space="preserve">
+    <value>Negative Sign:</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeSign.Name" xml:space="preserve">
+    <value>labelNegativeSign</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeSign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeSign.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeSign.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelNegativeInfinity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelNegativeInfinity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 99</value>
+  </data>
+  <data name="labelNegativeInfinity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="labelNegativeInfinity.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelNegativeInfinity.Text" xml:space="preserve">
+    <value>Negative Infinity Symbol:</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeInfinity.Name" xml:space="preserve">
+    <value>labelNegativeInfinity</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeInfinity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeInfinity.Parent" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;labelNegativeInfinity.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupSymbols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 201</value>
+  </data>
+  <data name="groupSymbols.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 154</value>
+  </data>
+  <data name="groupSymbols.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupSymbols.Text" xml:space="preserve">
+    <value>Signs and symbols</value>
+  </data>
+  <data name="&gt;&gt;groupSymbols.Name" xml:space="preserve">
+    <value>groupSymbols</value>
+  </data>
+  <data name="&gt;&gt;groupSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupSymbols.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupSymbols.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="buttonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 361</value>
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>280, 396</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Number Format Details</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>NumberFormatForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
