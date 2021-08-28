@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
   <data name="buttonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>System</value>
   </data>
@@ -126,10 +129,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 400</value>
+    <value>634, 507</value>
+  </data>
+  <data name="buttonClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 26</value>
+    <value>75, 30</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
@@ -150,14 +156,20 @@
   <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="labelFirstDay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="labelFirstDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelFirstDay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 21</value>
+    <value>4, 21</value>
+  </data>
+  <data name="labelFirstDay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelFirstDay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 18</value>
+    <value>141, 20</value>
   </data>
   <data name="labelFirstDay.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -180,14 +192,20 @@
   <data name="&gt;&gt;labelFirstDay.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="labelDays.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="labelDays.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelDays.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 48</value>
+    <value>4, 55</value>
+  </data>
+  <data name="labelDays.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelDays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
+    <value>48, 20</value>
   </data>
   <data name="labelDays.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -207,6 +225,9 @@
   <data name="&gt;&gt;labelDays.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="FirstDay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="FirstDay.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
@@ -214,10 +235,13 @@
     <value>NoControl</value>
   </data>
   <data name="FirstDay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 21</value>
+    <value>149, 21</value>
+  </data>
+  <data name="FirstDay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="FirstDay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 17</value>
+    <value>58, 22</value>
   </data>
   <data name="FirstDay.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -244,7 +268,7 @@
     <value>Name</value>
   </data>
   <data name="columnDay.Width" type="System.Int32, mscorlib">
-    <value>121</value>
+    <value>107</value>
   </data>
   <data name="columnDayAbbr.Text" xml:space="preserve">
     <value>Abbreviated</value>
@@ -253,7 +277,7 @@
     <value>Center</value>
   </data>
   <data name="columnDayAbbr.Width" type="System.Int32, mscorlib">
-    <value>90</value>
+    <value>67</value>
   </data>
   <data name="columnDayShortest.Text" xml:space="preserve">
     <value>Shortest</value>
@@ -262,16 +286,19 @@
     <value>Center</value>
   </data>
   <data name="columnDayShortest.Width" type="System.Int32, mscorlib">
-    <value>64</value>
+    <value>69</value>
   </data>
   <data name="listDays.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="listDays.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 68</value>
+    <value>4, 77</value>
+  </data>
+  <data name="listDays.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="listDays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 154</value>
+    <value>354, 251</value>
   </data>
   <data name="listDays.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -289,10 +316,16 @@
     <value>2</value>
   </data>
   <data name="groupBoxDays.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
+  </data>
+  <data name="groupBoxDays.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBoxDays.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="groupBoxDays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 235</value>
+    <value>362, 332</value>
   </data>
   <data name="groupBoxDays.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -319,10 +352,13 @@
     <value>NoControl</value>
   </data>
   <data name="checkGenitiveMonths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 313</value>
+    <value>12, 262</value>
+  </data>
+  <data name="checkGenitiveMonths.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="checkGenitiveMonths.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 30</value>
+    <value>249, 24</value>
   </data>
   <data name="checkGenitiveMonths.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -342,14 +378,20 @@
   <data name="&gt;&gt;checkGenitiveMonths.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="labelMonths.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="labelMonths.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelMonths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 48</value>
+    <value>8, 55</value>
+  </data>
+  <data name="labelMonths.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelMonths.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
+    <value>64, 20</value>
   </data>
   <data name="labelMonths.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -373,7 +415,7 @@
     <value>Name</value>
   </data>
   <data name="columnMonth.Width" type="System.Int32, mscorlib">
-    <value>151</value>
+    <value>113</value>
   </data>
   <data name="columnMonthAbbr.Text" xml:space="preserve">
     <value>Abbreviated</value>
@@ -388,10 +430,13 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="listMonths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 68</value>
+    <value>12, 77</value>
+  </data>
+  <data name="listMonths.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="listMonths.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 239</value>
+    <value>294, 180</value>
   </data>
   <data name="listMonths.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -408,14 +453,20 @@
   <data name="&gt;&gt;listMonths.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="MonthsPerYear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="MonthsPerYear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="MonthsPerYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 21</value>
+    <value>147, 21</value>
+  </data>
+  <data name="MonthsPerYear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="MonthsPerYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 17</value>
+    <value>54, 22</value>
   </data>
   <data name="MonthsPerYear.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -438,14 +489,20 @@
   <data name="&gt;&gt;MonthsPerYear.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="labelMonthsPerYear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="labelMonthsPerYear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelMonthsPerYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 23</value>
+    <value>8, 21</value>
+  </data>
+  <data name="labelMonthsPerYear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelMonthsPerYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 18</value>
+    <value>135, 20</value>
   </data>
   <data name="labelMonthsPerYear.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -466,10 +523,16 @@
     <value>4</value>
   </data>
   <data name="groupBoxMonths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 12</value>
+    <value>391, 11</value>
+  </data>
+  <data name="groupBoxMonths.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBoxMonths.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="groupBoxMonths.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 343</value>
+    <value>318, 332</value>
   </data>
   <data name="groupBoxMonths.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -489,6 +552,12 @@
   <data name="&gt;&gt;groupBoxMonths.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="groupBoxTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="PM.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
@@ -496,10 +565,13 @@
     <value>NoControl</value>
   </data>
   <data name="PM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 49</value>
+    <value>138, 61</value>
+  </data>
+  <data name="PM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="PM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 17</value>
+    <value>46, 22</value>
   </data>
   <data name="PM.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -522,14 +594,20 @@
   <data name="&gt;&gt;PM.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="labelPM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="labelPM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelPM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 51</value>
+    <value>8, 61</value>
+  </data>
+  <data name="labelPM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelPM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 17</value>
+    <value>126, 20</value>
   </data>
   <data name="labelPM.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -549,6 +627,9 @@
   <data name="&gt;&gt;labelPM.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="AM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="AM.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8pt</value>
   </data>
@@ -556,10 +637,13 @@
     <value>NoControl</value>
   </data>
   <data name="AM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 24</value>
+    <value>138, 29</value>
+  </data>
+  <data name="AM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="AM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 17</value>
+    <value>43, 22</value>
   </data>
   <data name="AM.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -582,14 +666,20 @@
   <data name="&gt;&gt;AM.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="labelAM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="labelAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelAM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 26</value>
+    <value>8, 31</value>
+  </data>
+  <data name="labelAM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelAM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 17</value>
+    <value>126, 20</value>
   </data>
   <data name="labelAM.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -610,10 +700,16 @@
     <value>3</value>
   </data>
   <data name="groupBoxTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 351</value>
+    <value>15, 361</value>
+  </data>
+  <data name="groupBoxTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBoxTime.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="groupBoxTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 75</value>
+    <value>358, 125</value>
   </data>
   <data name="groupBoxTime.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -640,10 +736,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelAlgorithm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 18</value>
+    <value>8, 21</value>
+  </data>
+  <data name="labelAlgorithm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelAlgorithm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 26</value>
+    <value>85, 20</value>
   </data>
   <data name="labelAlgorithm.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -663,14 +762,23 @@
   <data name="&gt;&gt;labelAlgorithm.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="groupBoxCalendar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentEra.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="CurrentEra.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="CurrentEra.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 65</value>
+    <value>122, 83</value>
+  </data>
+  <data name="CurrentEra.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="CurrentEra.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 17</value>
+    <value>35, 22</value>
   </data>
   <data name="CurrentEra.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -700,10 +808,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelEra.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 66</value>
+    <value>8, 83</value>
+  </data>
+  <data name="labelEra.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelEra.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 26</value>
+    <value>101, 20</value>
   </data>
   <data name="labelEra.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -723,14 +834,20 @@
   <data name="&gt;&gt;labelEra.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="NativeName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="NativeName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="NativeName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 40</value>
+    <value>122, 52</value>
+  </data>
+  <data name="NativeName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="NativeName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 17</value>
+    <value>96, 22</value>
   </data>
   <data name="NativeName.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -760,10 +877,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelNativeName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 42</value>
+    <value>8, 52</value>
+  </data>
+  <data name="labelNativeName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelNativeName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 26</value>
+    <value>110, 20</value>
   </data>
   <data name="labelNativeName.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -783,14 +903,20 @@
   <data name="&gt;&gt;labelNativeName.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="Algorithm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="Algorithm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Algorithm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 16</value>
+    <value>122, 21</value>
+  </data>
+  <data name="Algorithm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="Algorithm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 17</value>
+    <value>80, 22</value>
   </data>
   <data name="Algorithm.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -814,10 +940,16 @@
     <value>5</value>
   </data>
   <data name="groupBoxCalendar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 253</value>
+    <value>391, 360</value>
+  </data>
+  <data name="groupBoxCalendar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBoxCalendar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="groupBoxCalendar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 92</value>
+    <value>318, 126</value>
   </data>
   <data name="groupBoxCalendar.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -841,16 +973,34 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>192, 192</value>
+    <value>144, 144</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>613, 436</value>
+    <value>728, 558</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Date, Time and Calendar Information</value>
+  </data>
+  <data name="&gt;&gt;columnMonth.Name" xml:space="preserve">
+    <value>columnMonth</value>
+  </data>
+  <data name="&gt;&gt;columnMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnMonthAbbr.Name" xml:space="preserve">
+    <value>columnMonthAbbr</value>
+  </data>
+  <data name="&gt;&gt;columnMonthAbbr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;columnDay.Name" xml:space="preserve">
     <value>columnDay</value>
@@ -868,18 +1018,6 @@
     <value>columnDayShortest</value>
   </data>
   <data name="&gt;&gt;columnDayShortest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;columnMonth.Name" xml:space="preserve">
-    <value>columnMonth</value>
-  </data>
-  <data name="&gt;&gt;columnMonth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;columnMonthAbbr.Name" xml:space="preserve">
-    <value>columnMonthAbbr</value>
-  </data>
-  <data name="&gt;&gt;columnMonthAbbr.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

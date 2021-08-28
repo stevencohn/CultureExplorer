@@ -82,31 +82,31 @@ namespace CultureExplorer20
 			this.labelFirstDay = new System.Windows.Forms.Label();
 			this.groupBoxDays = new System.Windows.Forms.GroupBox();
 			this.labelDays = new System.Windows.Forms.Label();
+			this.groupBoxMonths = new System.Windows.Forms.GroupBox();
+			this.checkGenitiveMonths = new System.Windows.Forms.CheckBox();
+			this.labelMonths = new System.Windows.Forms.Label();
+			this.labelMonthsPerYear = new System.Windows.Forms.Label();
+			this.groupBoxTime = new System.Windows.Forms.GroupBox();
+			this.labelPM = new System.Windows.Forms.Label();
+			this.labelAM = new System.Windows.Forms.Label();
+			this.labelAlgorithm = new System.Windows.Forms.Label();
+			this.groupBoxCalendar = new System.Windows.Forms.GroupBox();
+			this.labelEra = new System.Windows.Forms.Label();
+			this.labelNativeName = new System.Windows.Forms.Label();
+			this.CurrentEra = new CultureExplorer20.CultureExplorerLabel();
+			this.NativeName = new CultureExplorer20.CultureExplorerLabel();
+			this.Algorithm = new CultureExplorer20.CultureExplorerLabel();
+			this.PM = new CultureExplorer20.CultureExplorerLabel();
+			this.AM = new CultureExplorer20.CultureExplorerLabel();
+			this.listMonths = new CultureExplorer20.CultureExplorerListView();
+			this.columnMonth = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+			this.columnMonthAbbr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+			this.MonthsPerYear = new CultureExplorer20.CultureExplorerLabel();
 			this.FirstDay = new CultureExplorer20.CultureExplorerLabel();
 			this.listDays = new CultureExplorer20.CultureExplorerListView();
 			this.columnDay = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnDayAbbr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnDayShortest = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.groupBoxMonths = new System.Windows.Forms.GroupBox();
-			this.checkGenitiveMonths = new System.Windows.Forms.CheckBox();
-			this.labelMonths = new System.Windows.Forms.Label();
-			this.listMonths = new CultureExplorer20.CultureExplorerListView();
-			this.columnMonth = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.columnMonthAbbr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.MonthsPerYear = new CultureExplorer20.CultureExplorerLabel();
-			this.labelMonthsPerYear = new System.Windows.Forms.Label();
-			this.groupBoxTime = new System.Windows.Forms.GroupBox();
-			this.PM = new CultureExplorer20.CultureExplorerLabel();
-			this.labelPM = new System.Windows.Forms.Label();
-			this.AM = new CultureExplorer20.CultureExplorerLabel();
-			this.labelAM = new System.Windows.Forms.Label();
-			this.labelAlgorithm = new System.Windows.Forms.Label();
-			this.groupBoxCalendar = new System.Windows.Forms.GroupBox();
-			this.CurrentEra = new CultureExplorer20.CultureExplorerLabel();
-			this.labelEra = new System.Windows.Forms.Label();
-			this.NativeName = new CultureExplorer20.CultureExplorerLabel();
-			this.labelNativeName = new System.Windows.Forms.Label();
-			this.Algorithm = new CultureExplorer20.CultureExplorerLabel();
 			this.groupBoxDays.SuspendLayout();
 			this.groupBoxMonths.SuspendLayout();
 			this.groupBoxTime.SuspendLayout();
@@ -140,40 +140,6 @@ namespace CultureExplorer20
 			resources.ApplyResources(this.labelDays, "labelDays");
 			this.labelDays.Name = "labelDays";
 			// 
-			// FirstDay
-			// 
-			this.FirstDay.BackColor = System.Drawing.SystemColors.Info;
-			this.FirstDay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.FirstDay.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.FirstDay, "FirstDay");
-			this.FirstDay.Name = "FirstDay";
-			// 
-			// listDays
-			// 
-			this.listDays.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnDay,
-            this.columnDayAbbr,
-            this.columnDayShortest});
-			this.listDays.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.listDays, "listDays");
-			this.listDays.FullRowSelect = true;
-			this.listDays.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-			this.listDays.Name = "listDays";
-			this.listDays.UseCompatibleStateImageBehavior = false;
-			this.listDays.View = System.Windows.Forms.View.Details;
-			// 
-			// columnDay
-			// 
-			resources.ApplyResources(this.columnDay, "columnDay");
-			// 
-			// columnDayAbbr
-			// 
-			resources.ApplyResources(this.columnDayAbbr, "columnDayAbbr");
-			// 
-			// columnDayShortest
-			// 
-			resources.ApplyResources(this.columnDayShortest, "columnDayShortest");
-			// 
 			// groupBoxMonths
 			// 
 			this.groupBoxMonths.Controls.Add(this.checkGenitiveMonths);
@@ -198,6 +164,99 @@ namespace CultureExplorer20
 			resources.ApplyResources(this.labelMonths, "labelMonths");
 			this.labelMonths.Name = "labelMonths";
 			// 
+			// labelMonthsPerYear
+			// 
+			resources.ApplyResources(this.labelMonthsPerYear, "labelMonthsPerYear");
+			this.labelMonthsPerYear.Name = "labelMonthsPerYear";
+			// 
+			// groupBoxTime
+			// 
+			resources.ApplyResources(this.groupBoxTime, "groupBoxTime");
+			this.groupBoxTime.Controls.Add(this.PM);
+			this.groupBoxTime.Controls.Add(this.labelPM);
+			this.groupBoxTime.Controls.Add(this.AM);
+			this.groupBoxTime.Controls.Add(this.labelAM);
+			this.groupBoxTime.FlatStyle = System.Windows.Forms.FlatStyle.System;
+			this.groupBoxTime.Name = "groupBoxTime";
+			this.groupBoxTime.TabStop = false;
+			// 
+			// labelPM
+			// 
+			resources.ApplyResources(this.labelPM, "labelPM");
+			this.labelPM.Name = "labelPM";
+			// 
+			// labelAM
+			// 
+			resources.ApplyResources(this.labelAM, "labelAM");
+			this.labelAM.Name = "labelAM";
+			// 
+			// labelAlgorithm
+			// 
+			resources.ApplyResources(this.labelAlgorithm, "labelAlgorithm");
+			this.labelAlgorithm.Name = "labelAlgorithm";
+			// 
+			// groupBoxCalendar
+			// 
+			resources.ApplyResources(this.groupBoxCalendar, "groupBoxCalendar");
+			this.groupBoxCalendar.Controls.Add(this.CurrentEra);
+			this.groupBoxCalendar.Controls.Add(this.labelEra);
+			this.groupBoxCalendar.Controls.Add(this.NativeName);
+			this.groupBoxCalendar.Controls.Add(this.labelNativeName);
+			this.groupBoxCalendar.Controls.Add(this.labelAlgorithm);
+			this.groupBoxCalendar.Controls.Add(this.Algorithm);
+			this.groupBoxCalendar.Name = "groupBoxCalendar";
+			this.groupBoxCalendar.TabStop = false;
+			// 
+			// labelEra
+			// 
+			resources.ApplyResources(this.labelEra, "labelEra");
+			this.labelEra.Name = "labelEra";
+			// 
+			// labelNativeName
+			// 
+			resources.ApplyResources(this.labelNativeName, "labelNativeName");
+			this.labelNativeName.Name = "labelNativeName";
+			// 
+			// CurrentEra
+			// 
+			resources.ApplyResources(this.CurrentEra, "CurrentEra");
+			this.CurrentEra.BackColor = System.Drawing.SystemColors.Info;
+			this.CurrentEra.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.CurrentEra.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.CurrentEra.Name = "CurrentEra";
+			// 
+			// NativeName
+			// 
+			resources.ApplyResources(this.NativeName, "NativeName");
+			this.NativeName.BackColor = System.Drawing.SystemColors.Info;
+			this.NativeName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.NativeName.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.NativeName.Name = "NativeName";
+			// 
+			// Algorithm
+			// 
+			resources.ApplyResources(this.Algorithm, "Algorithm");
+			this.Algorithm.BackColor = System.Drawing.SystemColors.Info;
+			this.Algorithm.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.Algorithm.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.Algorithm.Name = "Algorithm";
+			// 
+			// PM
+			// 
+			resources.ApplyResources(this.PM, "PM");
+			this.PM.BackColor = System.Drawing.SystemColors.Info;
+			this.PM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.PM.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.PM.Name = "PM";
+			// 
+			// AM
+			// 
+			resources.ApplyResources(this.AM, "AM");
+			this.AM.BackColor = System.Drawing.SystemColors.Info;
+			this.AM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.AM.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.AM.Name = "AM";
+			// 
 			// listMonths
 			// 
 			this.listMonths.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -207,6 +266,7 @@ namespace CultureExplorer20
 			resources.ApplyResources(this.listMonths, "listMonths");
 			this.listMonths.FullRowSelect = true;
 			this.listMonths.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+			this.listMonths.HideSelection = false;
 			this.listMonths.Name = "listMonths";
 			this.listMonths.UseCompatibleStateImageBehavior = false;
 			this.listMonths.View = System.Windows.Forms.View.Details;
@@ -221,104 +281,46 @@ namespace CultureExplorer20
 			// 
 			// MonthsPerYear
 			// 
+			resources.ApplyResources(this.MonthsPerYear, "MonthsPerYear");
 			this.MonthsPerYear.BackColor = System.Drawing.SystemColors.Info;
 			this.MonthsPerYear.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.MonthsPerYear.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.MonthsPerYear, "MonthsPerYear");
 			this.MonthsPerYear.Name = "MonthsPerYear";
 			// 
-			// labelMonthsPerYear
+			// FirstDay
 			// 
-			resources.ApplyResources(this.labelMonthsPerYear, "labelMonthsPerYear");
-			this.labelMonthsPerYear.Name = "labelMonthsPerYear";
+			resources.ApplyResources(this.FirstDay, "FirstDay");
+			this.FirstDay.BackColor = System.Drawing.SystemColors.Info;
+			this.FirstDay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.FirstDay.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.FirstDay.Name = "FirstDay";
 			// 
-			// groupBoxTime
+			// listDays
 			// 
-			this.groupBoxTime.Controls.Add(this.PM);
-			this.groupBoxTime.Controls.Add(this.labelPM);
-			this.groupBoxTime.Controls.Add(this.AM);
-			this.groupBoxTime.Controls.Add(this.labelAM);
-			this.groupBoxTime.FlatStyle = System.Windows.Forms.FlatStyle.System;
-			resources.ApplyResources(this.groupBoxTime, "groupBoxTime");
-			this.groupBoxTime.Name = "groupBoxTime";
-			this.groupBoxTime.TabStop = false;
+			this.listDays.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnDay,
+            this.columnDayAbbr,
+            this.columnDayShortest});
+			this.listDays.Cursor = System.Windows.Forms.Cursors.Hand;
+			resources.ApplyResources(this.listDays, "listDays");
+			this.listDays.FullRowSelect = true;
+			this.listDays.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+			this.listDays.HideSelection = false;
+			this.listDays.Name = "listDays";
+			this.listDays.UseCompatibleStateImageBehavior = false;
+			this.listDays.View = System.Windows.Forms.View.Details;
 			// 
-			// PM
+			// columnDay
 			// 
-			this.PM.BackColor = System.Drawing.SystemColors.Info;
-			this.PM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.PM.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.PM, "PM");
-			this.PM.Name = "PM";
+			resources.ApplyResources(this.columnDay, "columnDay");
 			// 
-			// labelPM
+			// columnDayAbbr
 			// 
-			resources.ApplyResources(this.labelPM, "labelPM");
-			this.labelPM.Name = "labelPM";
+			resources.ApplyResources(this.columnDayAbbr, "columnDayAbbr");
 			// 
-			// AM
+			// columnDayShortest
 			// 
-			this.AM.BackColor = System.Drawing.SystemColors.Info;
-			this.AM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.AM.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.AM, "AM");
-			this.AM.Name = "AM";
-			// 
-			// labelAM
-			// 
-			resources.ApplyResources(this.labelAM, "labelAM");
-			this.labelAM.Name = "labelAM";
-			// 
-			// labelAlgorithm
-			// 
-			resources.ApplyResources(this.labelAlgorithm, "labelAlgorithm");
-			this.labelAlgorithm.Name = "labelAlgorithm";
-			// 
-			// groupBoxCalendar
-			// 
-			this.groupBoxCalendar.Controls.Add(this.CurrentEra);
-			this.groupBoxCalendar.Controls.Add(this.labelEra);
-			this.groupBoxCalendar.Controls.Add(this.NativeName);
-			this.groupBoxCalendar.Controls.Add(this.labelNativeName);
-			this.groupBoxCalendar.Controls.Add(this.labelAlgorithm);
-			this.groupBoxCalendar.Controls.Add(this.Algorithm);
-			resources.ApplyResources(this.groupBoxCalendar, "groupBoxCalendar");
-			this.groupBoxCalendar.Name = "groupBoxCalendar";
-			this.groupBoxCalendar.TabStop = false;
-			// 
-			// CurrentEra
-			// 
-			this.CurrentEra.BackColor = System.Drawing.SystemColors.Info;
-			this.CurrentEra.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.CurrentEra.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.CurrentEra, "CurrentEra");
-			this.CurrentEra.Name = "CurrentEra";
-			// 
-			// labelEra
-			// 
-			resources.ApplyResources(this.labelEra, "labelEra");
-			this.labelEra.Name = "labelEra";
-			// 
-			// NativeName
-			// 
-			this.NativeName.BackColor = System.Drawing.SystemColors.Info;
-			this.NativeName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.NativeName.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.NativeName, "NativeName");
-			this.NativeName.Name = "NativeName";
-			// 
-			// labelNativeName
-			// 
-			resources.ApplyResources(this.labelNativeName, "labelNativeName");
-			this.labelNativeName.Name = "labelNativeName";
-			// 
-			// Algorithm
-			// 
-			this.Algorithm.BackColor = System.Drawing.SystemColors.Info;
-			this.Algorithm.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.Algorithm.Cursor = System.Windows.Forms.Cursors.Hand;
-			resources.ApplyResources(this.Algorithm, "Algorithm");
-			this.Algorithm.Name = "Algorithm";
+			resources.ApplyResources(this.columnDayShortest, "columnDayShortest");
 			// 
 			// CalendarForm
 			// 
@@ -334,12 +336,15 @@ namespace CultureExplorer20
 			this.ShowInTaskbar = false;
 			this.Closing += new System.ComponentModel.CancelEventHandler(this.OnClosing);
 			this.groupBoxDays.ResumeLayout(false);
+			this.groupBoxDays.PerformLayout();
 			this.groupBoxMonths.ResumeLayout(false);
 			this.groupBoxMonths.PerformLayout();
 			this.groupBoxTime.ResumeLayout(false);
+			this.groupBoxTime.PerformLayout();
 			this.groupBoxCalendar.ResumeLayout(false);
 			this.groupBoxCalendar.PerformLayout();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 		#endregion
